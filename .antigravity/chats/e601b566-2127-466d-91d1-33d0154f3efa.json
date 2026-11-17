@@ -40,6 +40,18 @@
       "created_at": "2026-11-17T02:57:21.760Z",
       "sender": "ios",
       "is_cancelled": false
+    },
+    {
+      "id": "4d187122-f196-4fab-8444-e31a5945bd10",
+      "role": "agent",
+      "content": "Para controlar o Antigravity do seu computador diretamente pelo celular, você pode usar a funcionalidade de **Remote Control** (Controle Remoto).\n\nSiga os passos abaixo:\n\n---\n\n### 1. No computador (ativar o controle remoto)\n1. Abra o **Antigravity** no seu PC.\n2. Acesse as configurações clicando no ícone de engrenagem ou usando o atalho `Ctrl + ,` (no Windows/Linux) ou `Cmd + ,` (no Mac).\n3. Na seção **Application** (ou Geral), ative a opção **Enable Remote Control**.\n4. Será exibido um **QR Code** de pareamento na tela.\n\n---\n\n### 2. No celular (conectar)\nVocê tem duas formas de se conectar:\n\n* **Pelo QR Code (mais rápido):** Abra a câmera do celular e aponte para o QR Code exibido no PC para abrir o link de pareamento instantaneamente.\n* **Pelo navegador:** Acesse [antigravity.google](https://antigravity.google) no navegador do celular e faça login com a **mesma conta Google** configurada no seu PC. Em seguida, selecione o seu computador na lista de instâncias ativas.\n\n---\n\n### Dicas úteis:\n* **Adicionar à tela inicial (PWA):** No menu do navegador do celular, selecione **\"Adicionar à tela de início\"**. O Antigravity funcionará como um app e poderá enviar notificações push quando o agente concluir tarefas ou precisar de confirmação.\n* **Manter o PC ligado:** O processamento e os comandos continuam rodando localmente no seu computador, então ele precisa permanecer ligado e conectado à internet.",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "bedf58c8-86a8-4b0c-9f8f-f7d6da3ab8c7",
+      "created_at": "2026-11-17T02:57:57.847Z",
+      "sender": "macOS",
+      "is_cancelled": false
     }
   ]
 }
