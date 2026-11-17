@@ -3,7 +3,7 @@
   "name": "Como faço para conectar minha conta",
   "createdAt": "2026-11-17T02:55:58.299Z",
   "filename": "e601b566-2127-466d-91d1-33d0154f3efa.json",
-  "geminiStarted": false,
+  "geminiStarted": true,
   "messages": [
     {
       "id": "d23e8351-ca21-4a52-adf8-94a8a65690d3",
@@ -14,6 +14,30 @@
       "client_type": "gemini-bridge",
       "parent_message_id": null,
       "created_at": "2026-11-17T02:56:51.676Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "aa28babb-ebc8-43c0-8f5b-ad5f939da2af",
+      "role": "agent",
+      "content": "Depende de qual conta você quer conectar:\n\n- **Para acessar e sincronizar este projeto no seu PC (via GitHub):** Toque no **ícone do GitHub no topo do chat** para conectar um repositório. Assim que conectar, todo o histórico do projeto vai para lá automaticamente e você poderá abri-lo no PC.\n- **Se for outra conta** (como a conta do próprio aplicativo ou de algum serviço/jogo específico que você queira criar aqui): me diga qual conta ou sistema você está tentando conectar para eu te orientar melhor!",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "d23e8351-ca21-4a52-adf8-94a8a65690d3",
+      "created_at": "2026-11-17T02:57:21.759Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    },
+    {
+      "id": "bedf58c8-86a8-4b0c-9f8f-f7d6da3ab8c7",
+      "role": "user",
+      "content": "Como controlo meu Antigravity do pc pelo cell? Fale em português",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-17T02:57:21.760Z",
       "sender": "ios",
       "is_cancelled": false
     }
